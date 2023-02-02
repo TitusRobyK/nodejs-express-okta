@@ -1,0 +1,32 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Nodejs Express Okta POC",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TitusRobyK/nodejs-express-okta.git"
+  },
+  "author": "Titus Roby Kariyampallil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TitusRobyK/nodejs-express-okta/issues"
+  },
+  "homepage": "https://github.com/TitusRobyK/nodejs-express-okta#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "1.17",
+    "passport": "^0.5.3",
+    "passport-openidconnect": "^0.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
