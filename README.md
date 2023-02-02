@@ -12,7 +12,7 @@ Invoke Wrapper API _ by OKTA -> /authorization-code/callback
 
 Wrapper API _ /authorization-code/callback forwards to AEM Anthemeap _ Login Page 
  
-AEM Anthemeap _ Login Page , Invoke Wrapper API _ by AEM -> /login-success 
+AEM Anthemeap _ auth Page [ Within AEM ] , Invoke Wrapper API _ by AEM -> /login-success 
 
 Redirect the user GET _ Session Storage _ State -> Anthemeap _ Any Page
 

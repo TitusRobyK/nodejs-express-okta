@@ -77,12 +77,12 @@ passport.serializeUser((user, next) => {
   app.use('/authorization-code/callback',
     passport.authenticate('oidc', { failureRedirect: '/error' }),
     (req, res) => {
-      //Page within AEM preferably profile or login page within AEM 
-      res.redirect('/login-success');
+      //Page within AEM preferably profile or auth page within AEM 
+      res.redirect('/auth');
     }
   );
   
-  app.post('/logout', (req, res) => {
+  app.get('/logout', (req, res) => {
     req.logout();
     req.session.destroy();
     res.redirect('/');
