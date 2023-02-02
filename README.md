@@ -19,3 +19,7 @@ Redirect the user GET _ Session Storage _ State -> Anthemeap _ Any Page
 LOGOUT CTA 
 
 Invoke Wrapper API _ by AEM -> /logout
+
+
+
+<img width="797" alt="image" src="https://user-images.githubusercontent.com/32787952/216406329-a2bd909a-e3dd-474d-9889-8686a22e9bbb.png">
