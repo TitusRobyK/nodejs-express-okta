@@ -78,14 +78,15 @@ passport.serializeUser((user, next) => {
     passport.authenticate('oidc', { failureRedirect: '/error' }),
     (req, res) => {
       //Page within AEM preferably profile or auth page within AEM 
-      res.redirect('/auth');
+      res.redirect('http://localhost:4502/auth');
     }
   );
   
   app.get('/logout', (req, res) => {
     req.logout();
     req.session.destroy();
-    res.redirect('/');
+     //Page within AEM preferably profile or auth page within AEM 
+    res.redirect('http://localhost:4502/auth');
   });
 
 
